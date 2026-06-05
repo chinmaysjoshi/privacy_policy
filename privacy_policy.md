@@ -1,4 +1,4 @@
-# Privacy Policy – Labh Mantra
+# Privacy Policy
 
 **Effective Date:** June 2026
 
@@ -8,9 +8,9 @@
 
 ## 1. Overview
 
-Labh Mantra ("the App") is a personal finance calculator application designed to run entirely on your Android device. We are committed to protecting your privacy.
+Our application is designed with a privacy-first approach. We are committed to protecting your privacy.
 
-**Core Principle:** This app does not collect, store, transmit, or share any personal information. All calculations are performed locally on your device. No internet connection is required.
+**Core Principle:** This app does not collect, store, transmit, or share any personal information. All processing is performed locally on your device. No internet connection is required unless explicitly stated in the app's features.
 
 ---
 
@@ -104,7 +104,7 @@ This app does **not** use:
 
 ## 8. Children's Privacy
 
-Labh Mantra is designed for adults managing personal finances. We do not knowingly collect information from children under 13. If a parent or guardian believes a child has used the app, please contact us to request data deletion (though no personal data is collected).
+Our application is designed for general audiences. We do not knowingly collect information from children under 13. If a parent or guardian believes a child has used the app, please contact us to request data deletion (though no personal data is collected).
 
 ---
 
@@ -131,8 +131,7 @@ If we make material changes to this policy, we will:
 
 If you have questions about this privacy policy or wish to request deletion of cached crash reports:
 
-**Email:** [your-email@example.com]  
-**GitHub Issues:** [github.com/chinmaysjoshi/labh_mantra/issues](https://github.com/chinmaysjoshi/labh_mantra/issues)
+**GitHub Issues:** [github.com/chinmaysjoshi/privacy_policy/issues](https://github.com/chinmaysjoshi/privacy_policy/issues)
 
 ---
 
@@ -147,57 +146,7 @@ This policy is designed to comply with:
 
 **Labh Mantra is built with privacy-first principles. Your financial data is your own.**
 
----
 
-## Appendix: GitHub Pages Setup (Instructions for Developer)
-
-### Step 1: Enable GitHub Pages in Your Repo
-
-1. Go to your repository on GitHub: `https://github.com/chinmaysjoshi/labh_mantra`
-2. Click **Settings** (top right)
-3. Scroll to **Pages** (left sidebar)
-4. Under "Source", select:
-   - Branch: `main`
-   - Folder: `/docs`
-5. Click **Save**
-
-GitHub will display a message: *"Your site is published at https://chinmaysjoshi.github.io/labh_mantra/"*
-
-### Step 2: Verify the Privacy Policy is Live
-
-Wait 1-2 minutes, then visit:
-```
-https://chinmaysjoshi.github.io/labh_mantra/privacy_policy
-```
-
-(No file extension — GitHub Pages automatically renders `.md` files as HTML)
-
-If you see a 404, check:
-- [ ] The file is at `/docs/privacy_policy.md` (not `/privacy_policy.md`)
-- [ ] You pushed to GitHub (`git add docs/privacy_policy.md && git commit && git push origin main`)
-- [ ] Pages is enabled in Settings → Pages
-
-### Step 3: Share the URL in Play Console
-
-When setting up your app listing in Google Play Console:
-
-**Store listing → App details → Privacy policy:**
-```
-https://chinmaysjoshi.github.io/labh_mantra/privacy_policy
-```
-
-### Step 4: Optional — Create a GitHub Pages Index
-
-Create `docs/index.md`:
-
-```markdown
-# Labh Mantra
-
-Personal finance calculators — SIP, EMI, tax, and more. Fully offline. No ads. No login required.
-
-## Links
-
-- [Privacy Policy](./privacy_policy)
 - [GitHub Repository](https://github.com/chinmaysjoshi/labh_mantra)
 - [Download on Google Play](https://play.google.com/store/apps/details?id=com.labhmantra.app)
 ```

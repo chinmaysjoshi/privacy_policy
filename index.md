@@ -1,21 +1,14 @@
-# Labh Mantra
+# Privacy Policy
 
-**Smart personal finance calculators for India — 100% offline, zero ads, zero logins.**
-
-Plan your investments with 17 calculators: SIP, Lumpsum, EMI, FD, PPF, Income Tax, Retirement, Goal Planner, CAGR, NSC, RD, HRA, Gratuity, Dividend, SWP, Inflation, and Loan Prepayment.
-
-Available in English, Hindi, and Marathi.
+This repository contains a comprehensive privacy policy template for mobile and web applications.
 
 ---
 
 ## Links
 
-- **[Privacy Policy](./privacy_policy)** — What data we collect (spoiler: none)
-- **[GitHub Repository](https://github.com/chinmaysjoshi/labh_mantra)** — Source code
-- **Download:** Google Play (coming soon)
+- **[Full Privacy Policy](./privacy_policy)** — Detailed privacy terms
+- **[GitHub Repository](https://github.com/chinmaysjoshi/privacy_policy)** — This repo
 
 ---
 
-Built with Kotlin + Jetpack Compose.
-
-*The formula for your financial gain.*
+**Made with privacy-first principles.**
