@@ -2,7 +2,7 @@
 
 **Effective Date:** June 2026
 
-**Last Updated:** June 5, 2026
+**Last Updated:** June 23, 2026
 
 ---
 
@@ -146,41 +146,5 @@ This policy is designed to comply with:
 
 **Labh Mantra is built with privacy-first principles. Your financial data is your own.**
 
-
-- [GitHub Repository](https://github.com/chinmaysjoshi/labh_mantra)
 - [Download on Google Play](https://play.google.com/store/apps/details?id=com.labhmantra.app)
 ```
-
-This creates a landing page at `https://chinmaysjoshi.github.io/labh_mantra/`
-
-### Step 5: Custom Domain (Optional, Not Required for v1.0)
-
-If you want to use a custom domain like `privacy.labh-mantra.app`:
-1. Buy the domain (Namecheap, GoDaddy, etc.)
-2. Settings → Pages → Custom domain: enter `privacy.labh-mantra.app`
-3. Update your domain's DNS to point to GitHub's IP (GitHub will show you the exact steps)
-
-**For v1.0, skip this.** The default `github.io` URL is fine — Google Play accepts it.
-
----
-
-## File Structure in Your Repo
-
-```
-labh_mantra/
-├── docs/
-│   ├── index.md                    # Optional landing page
-│   └── privacy_policy.md           # ← This file
-├── app/
-│   ├── src/
-│   │   └── main/
-│   │       └── AndroidManifest.xml
-│   └── build.gradle.kts
-├── BUILD_SPEC_labh_mantra.md
-├── README.md
-└── .gitignore
-```
-
----
-
-**You're ready!** This privacy policy is now live and can be referenced in your Play Console submission.
