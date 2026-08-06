@@ -6,7 +6,8 @@ This repository contains a comprehensive privacy policy template for mobile and 
 
 ## Links
 
-- **[Full Privacy Policy](./privacy_policy)** — Detailed privacy terms
+- **[GrihaSabha Privacy Policy](./grihasabha_privacy_policy.md)** — Housing Society Management App Privacy Policy
+- **[Labh Mantra Privacy Policy](./privacy_policy.md)** — Detailed privacy terms
 - **[GitHub Repository](https://github.com/chinmaysjoshi/privacy_policy)** — This repo
 
 ---
