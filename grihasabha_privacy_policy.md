@@ -1,7 +1,7 @@
 # Privacy Policy for GrihaSabha (गृहसभा)
 
 **Effective Date:** August 2026  
-**Last Updated:** August 6, 2026  
+**Last Updated:** September 29, 2026  
 
 ---
 
@@ -17,9 +17,13 @@ We respect your privacy and are committed to protecting user data. This Privacy 
 
 ### A. Account Information
 To provide society management functionality, the app processes:
-- **User Identifier:** Phone number or alphanumeric username for authentication.
+- **User Identifier:** Phone number, alphanumeric username, or a Google Account (via Google Sign-In / Firebase Authentication) for authentication.
+- **Email Address:** Collected when you sign in with Google, or when provided directly, and used solely for account identification and login.
 - **Member Name:** Display name within your society directory.
-- **Society Roles:** Assigned role (Resident Member, Committee Member, Society Manager) to enforce permission boundaries.
+- **Flat/Unit Details:** Wing and flat number, and membership type (Owner, Tenant, or Household Help), used to route your society join request to the correct approvers.
+- **Society Roles:** Assigned role (Resident Member, Committee Member, Society Manager, Guard) to enforce permission boundaries.
+- **Society Join Requests:** When you request to join a society, your name, flat/wing, and membership type are shared with that society's Committee/Manager (or an existing approved member of the same flat) so they can approve or reject the request.
+- **Push Notification Token:** A device-specific Firebase Cloud Messaging (FCM) token is used to deliver time-sensitive alerts (e.g., a visitor at the gate, meter reading reminders) to your device. This token does not identify you personally beyond routing notifications to your device/society topic.
 
 ### B. Society Operational Data
 To enable society collaboration and accounting, the app manages:
@@ -45,6 +49,8 @@ We **do not** sell, rent, monetize, or trade any personal or society data with t
 ## 4. Third-Party Services & Data Transfers
 
 - **Google Play Services:** Used for app distribution, updates, and standard Play Store diagnostics.
+- **Google Sign-In / Firebase Authentication:** Used as an optional login method. Google shares your email address and basic profile info with the app upon your consent; this is verified against Google's own servers and never stored by any third party other than Google and our backend.
+- **Firebase Cloud Messaging (FCM):** Used to deliver push notifications (visitor alerts, meter reminders, society notices) to your device via Google's infrastructure.
 - **HTTPS Encryption:** All network traffic between GrihaSabha and the society backend server is encrypted using Transport Layer Security (TLS/HTTPS).
 - **No Third-Party Advertising:** GrihaSabha does **not** include any third-party ads (AdMob, Facebook Ads, etc.) or user-tracking ad trackers.
 
@@ -61,7 +67,8 @@ We **do not** sell, rent, monetize, or trade any personal or society data with t
 
 GrihaSabha requests minimal required permissions:
 - `INTERNET` / `ACCESS_NETWORK_STATE`: Required to sync society data with the backend server.
-- `POST_NOTIFICATIONS`: (Android 13+) Required to deliver local notifications for society notices, reminders, and task updates.
+- `POST_NOTIFICATIONS`: (Android 13+) Required to deliver local notifications for society notices, reminders, task updates, and visitor gate alerts.
+- `VIBRATE` / `WAKE_LOCK`: Used to get a resident's attention for a time-sensitive visitor alert at the gate.
 
 ---
 
